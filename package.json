@@ -1,0 +1,20 @@
+{
+    "name": "api_teste",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "qa": "export ENV=qa || set ENV=qa&&jest",
+        "local": "set ENV=qa && jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.3.6",
+        "chai-json-schema": "^1.5.1",
+        "jest": "^27.0.6",
+        "moment": "^2.29.1",
+        "supertest": "^6.1.3"
+    }
+}
